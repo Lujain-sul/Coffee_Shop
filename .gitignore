@@ -1,6 +1,7 @@
 .vscode
 __pycache__
 /backend/src/__pycache__
+/backend/auth/__pycache__
 /frontend/node_modules
 
 # OS generated files #

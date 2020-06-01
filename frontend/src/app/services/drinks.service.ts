@@ -137,10 +137,7 @@ export class DrinksService {
   }
 
   drinksToItems( drinks: Array<Drink>) {
-    // Object.keys(drinks)
-    // .forEach((key, index) => this.items[key] = drinks[key])
     for (const drink of drinks) {
-      // console.log(Object.keys(drink))
       this.items[drink.id] = drink;
     }
   }
